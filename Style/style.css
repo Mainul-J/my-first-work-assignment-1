@@ -1,0 +1,209 @@
+.display{
+    display: flex;
+}
+
+.center{
+    text-align: center;
+}
+.h1{
+    font-size: 48px;
+    font-weight: 400;
+}
+.p{
+    font-size: 16px;
+    font-weight: 400;
+}
+a{
+    color: black;
+    font-size: 13px;
+    font-weight:800;
+}
+.white{
+    color: whitesmoke;
+}
+
+
+
+
+
+
+/* nav */
+.nav-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 150px 20px 150px ;
+}
+.title{
+    font-size: 28px;
+    font-weight: 600;
+}
+.download{
+    border-radius: 8px;
+    padding:17px 24px ;
+    background-color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+/* banner */
+.banner{
+    background-image: url(../image/Hero-bg.png);
+    display: flex;
+    border: 5px solid red;
+    max-width: 1440px ;
+    height: 652px;
+}
+.banner-container{
+    border: 5px solid green;
+    max-width: 998px;
+    height: 550px;
+    margin: 0 auto;
+}
+.banner-img{
+    border: 10px solid blue;
+    margin:5px 0 0 0;
+}
+.btn-contact{
+    width: 244px;
+    height: 65px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(13, 19, 33, 1);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 24px;
+}
+
+/* why i choose web development */
+
+.info-section{
+    border: 5px solid yellowgreen;
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color:rgba(250, 250, 251, 1);
+    padding: 97px;
+}
+.info{
+    margin: 48px 147px;
+
+}
+.info-container{
+    align-items: center;
+    gap: 99px;
+    background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+    /* background-color:rgba(176, 170, 170, 0.27); /*rgba(255, 255, 255, 1)  */
+    border: 2px double red;
+    margin: 32px;
+}
+.learn{
+    font-size: 16px;
+    font-weight: 400;
+    padding:12px 20px ;
+}
+.motivate{
+    justify-items: center;
+    border: 2px solid red;
+}
+
+/* motivate section*/
+.motivate-container{
+
+    width: 852px;
+    border: 2px dotted blue;
+}
+.youtube-link{
+    border: 1px solid black;
+    padding: 22px;
+    border-radius: 16px;
+}
+/* technology section */
+
+.technology{
+border: 5px dotted green;
+}
+.techno{
+    border: 3px solid red;
+    justify-items: center;
+    align-items: center;
+    margin: 100px;
+}
+.techno-container ,.html , .css ,.java{
+    border: 2px solid black;
+    gap: 28px;
+    padding: 40px;
+}
+.techno-container>h1 {
+    font-size:24px ;
+    font-weight: bolder;
+}
+.techno-container>p{
+    font-size: 16;
+    font-weight: 400;
+}
+.html{
+    background-color:rgba(255, 76, 30, 0.05);
+}
+.css{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.java{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+/* frameworks section */
+
+.frameworks{
+    border: 5px solid red;
+    margin:10px;
+}
+.tech-f{
+    border: 3px double green;
+    margin:0px 144px 48px;
+}
+.frameworks-container{
+    border: 2px dotted blue;
+    margin: 0px 40px;
+}
+.framework{
+    border: 3px double darkgoldenrod;
+    gap: 24px;
+}
+/* support-section */
+.support-section{
+    border: 5px solid brown;
+    background-image: url(../image/handshake.jpg);
+    background-position: center;
+
+}
+.input-text{
+    border: none;
+    border-radius: 12px;
+    width: 350px;
+    padding: 10px;
+}
+.btn-submit{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    color: black;
+    margin: 4px;
+    
+}
+/* footer section */
+.footer-section{
+    background-color:rgba(247, 248, 248, 1) ;
+}
+.footer-container{
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 150px 0px;
+}
+.footer-ul{
+    list-style: none;
+    gap: 10px;
+}
